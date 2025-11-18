@@ -64,7 +64,7 @@ export default function WhyChooseUs() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-primary-navy mb-4">
-            Why Choose UAE Junk Pros?
+            Why Choose Junk Pros?
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             The premium choice for professional junk removal in Dubai

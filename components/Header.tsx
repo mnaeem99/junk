@@ -49,7 +49,7 @@ export default function Header() {
                 <span className="text-white font-bold text-xl">UJP</span>
               </div>
               <span className="text-xl font-bold text-primary-navy">
-                UAE Junk Pros
+                Junk Pros
               </span>
             </motion.div>
           </Link>

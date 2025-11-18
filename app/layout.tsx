@@ -5,31 +5,31 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "UAE Junk Pros - Premium Junk Removal & Waste Disposal Services in Dubai",
+  title: "Junk Pros - Premium Junk Removal & Waste Disposal Services in Dubai",
   description: "Same-day, eco-friendly junk removal services in Dubai. Professional furniture removal, appliance disposal, office junk removal, and more.",
   keywords: "junk removal dubai, furniture removal dubai, waste disposal dubai, same-day junk removal, eco-friendly disposal, office junk removal, appliance removal, construction debris removal, garden waste removal",
-  authors: [{ name: "UAE Junk Pros" }],
-  creator: "UAE Junk Pros",
-  publisher: "UAE Junk Pros",
+  authors: [{ name: "Junk Pros" }],
+  creator: "Junk Pros",
+  publisher: "Junk Pros",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://uaejunkpros.com"),
+  metadataBase: new URL("https://junk.vercel.app"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "UAE Junk Pros - Premium Junk Removal Services",
+    title: "Junk Pros - Premium Junk Removal Services",
     description: "Professional, same-day junk removal in Dubai",
     type: "website",
     locale: "en_US",
-    siteName: "UAE Junk Pros",
+    siteName: "Junk Pros",
   },
   twitter: {
     card: "summary_large_image",
-    title: "UAE Junk Pros - Premium Junk Removal Services",
+    title: "Junk Pros - Premium Junk Removal Services",
     description: "Professional, same-day junk removal in Dubai",
   },
   robots: {

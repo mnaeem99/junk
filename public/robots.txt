@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://uaejunkpros.com/sitemap.xml
+Sitemap: https://junk.vercel.app/sitemap.xml
 
 

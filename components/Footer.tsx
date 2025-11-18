@@ -40,7 +40,7 @@ export default function Footer() {
               <div className="w-10 h-10 bg-gradient-to-br from-secondary-emerald to-secondary-teal rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-xl">UJP</span>
               </div>
-              <span className="text-xl font-bold">UAE Junk Pros</span>
+              <span className="text-xl font-bold">Junk Pros</span>
             </div>
             <p className="text-gray-400 mb-4">
               Premium junk removal and waste disposal services in Dubai.
@@ -138,7 +138,7 @@ export default function Footer() {
         <div className="border-t border-white/10 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} UAE Junk Pros. All rights reserved. | Licensed by Dubai Municipality
+              © {new Date().getFullYear()} Junk Pros. All rights reserved. | Licensed by Dubai Municipality
             </p>
             <div className="flex items-center space-x-2">
               <span className="text-2xl">🇦🇪</span>
