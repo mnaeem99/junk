@@ -37,8 +37,8 @@ const features = [
   },
   {
     icon: MapPin,
-    title: "Covering All 7 Emirates",
-    description: "Dubai, Abu Dhabi, Sharjah, Ajman, RAK, Fujairah, and Umm Al Quwain. We're everywhere.",
+    title: "Serving All Areas of Dubai",
+    description: "We provide comprehensive junk removal services across all areas of Dubai.",
     color: "from-red-400 to-orange-500",
   },
 ];
@@ -67,7 +67,7 @@ export default function WhyChooseUs() {
             Why Choose UAE Junk Pros?
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            The premium choice for professional junk removal across the UAE
+            The premium choice for professional junk removal in Dubai
           </p>
         </motion.div>
 
@@ -126,4 +126,5 @@ export default function WhyChooseUs() {
     </section>
   );
 }
+
 

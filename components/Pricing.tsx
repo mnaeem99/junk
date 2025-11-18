@@ -107,7 +107,7 @@ export default function Pricing() {
               </ul>
 
               <motion.a
-                href="#contact"
+                href="/contact"
                 className={`block w-full text-center py-3 rounded-xl font-bold transition-colors ${
                   plan.popular
                     ? "bg-gradient-to-r from-secondary-emerald to-secondary-teal text-white hover:shadow-lg"
@@ -132,7 +132,7 @@ export default function Pricing() {
             Need a custom quote? Contact us for accurate pricing based on your specific needs.
           </p>
           <motion.a
-            href="#contact"
+            href="/contact"
             className="inline-block px-8 py-3 bg-primary-navy text-white rounded-xl font-bold hover:bg-opacity-90 transition-colors"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -144,4 +144,5 @@ export default function Pricing() {
     </section>
   );
 }
+
 

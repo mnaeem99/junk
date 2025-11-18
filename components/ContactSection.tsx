@@ -6,12 +6,6 @@ import { Phone, Mail, MapPin, MessageCircle, Send } from "lucide-react";
 
 const locations = [
   "Dubai",
-  "Abu Dhabi",
-  "Sharjah",
-  "Ajman",
-  "RAK",
-  "Fujairah",
-  "Umm Al Quwain",
 ];
 
 export default function ContactSection() {
@@ -35,7 +29,7 @@ Address: ${formData.address}
 Service: ${formData.serviceType}
 Message: ${formData.message}`;
     
-    const whatsappUrl = `https://wa.me/971501234567?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/+971582103486?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
 
@@ -60,7 +54,7 @@ Message: ${formData.message}`;
             Get Your Free Quote Today
           </h2>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Contact us now for same-day service across all UAE emirates
+            Contact us now for same-day service in Dubai
           </p>
         </motion.div>
 
@@ -195,7 +189,7 @@ Message: ${formData.message}`;
               
               <div className="space-y-4">
                 <a
-                  href="tel:+971501234567"
+                  href="tel:+971582103486"
                   className="flex items-center space-x-4 p-4 bg-white/10 rounded-lg hover:bg-white/20 transition-colors"
                 >
                   <div className="w-12 h-12 bg-secondary-emerald rounded-lg flex items-center justify-center">
@@ -203,12 +197,12 @@ Message: ${formData.message}`;
                   </div>
                   <div>
                     <p className="text-sm text-white/70">Phone</p>
-                    <p className="text-lg font-bold">+971 50 123 4567</p>
+                    <p className="text-lg font-bold">+971582103486</p>
                   </div>
                 </a>
 
                 <a
-                  href="mailto:info@uaejunkpros.com"
+                  href="mailto:Junkremoval1.uae@gmail.com"
                   className="flex items-center space-x-4 p-4 bg-white/10 rounded-lg hover:bg-white/20 transition-colors"
                 >
                   <div className="w-12 h-12 bg-secondary-emerald rounded-lg flex items-center justify-center">
@@ -216,7 +210,22 @@ Message: ${formData.message}`;
                   </div>
                   <div>
                     <p className="text-sm text-white/70">Email</p>
-                    <p className="text-lg font-bold">info@uaejunkpros.com</p>
+                    <p className="text-lg font-bold">Junkremoval1.uae@gmail.com</p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://wa.me/+971582103486"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-4 p-4 bg-white/10 rounded-lg hover:bg-white/20 transition-colors"
+                >
+                  <div className="w-12 h-12 bg-green-500 rounded-lg flex items-center justify-center">
+                    <MessageCircle className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-white/70">WhatsApp</p>
+                    <p className="text-lg font-bold">+971582103486</p>
                   </div>
                 </a>
 
@@ -242,7 +251,7 @@ Message: ${formData.message}`;
             </div>
 
             <motion.a
-              href="https://wa.me/971501234567"
+              href="https://wa.me/+971582103486"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full px-8 py-4 bg-green-500 hover:bg-green-600 text-white rounded-xl font-bold text-lg flex items-center justify-center space-x-2 transition-colors"
@@ -258,4 +267,5 @@ Message: ${formData.message}`;
     </section>
   );
 }
+
 

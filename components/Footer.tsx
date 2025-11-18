@@ -2,13 +2,15 @@
 
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
+import Link from "next/link";
 
 const quickLinks = [
-  { label: "Home", href: "#home" },
-  { label: "Services", href: "#services" },
-  { label: "Why Us", href: "#why-us" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/" },
+  { label: "Services", href: "/services" },
+  { label: "Service Areas", href: "/areas" },
+  { label: "Why Us", href: "/why-us" },
+  { label: "Gallery", href: "/gallery" },
+  { label: "Contact", href: "/contact" },
 ];
 
 const services = [
@@ -41,7 +43,7 @@ export default function Footer() {
               <span className="text-xl font-bold">UAE Junk Pros</span>
             </div>
             <p className="text-gray-400 mb-4">
-              Premium junk removal and waste disposal services across all 7 emirates of the UAE.
+              Premium junk removal and waste disposal services in Dubai.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (
@@ -63,12 +65,21 @@ export default function Footer() {
             <ul className="space-y-2">
               {quickLinks.map((link, index) => (
                 <li key={index}>
-                  <a
-                    href={link.href}
-                    className="text-gray-400 hover:text-secondary-emerald transition-colors"
-                  >
-                    {link.label}
-                  </a>
+                  {link.href.startsWith('/') ? (
+                    <Link
+                      href={link.href}
+                      className="text-gray-400 hover:text-secondary-emerald transition-colors"
+                    >
+                      {link.label}
+                    </Link>
+                  ) : (
+                    <a
+                      href={link.href}
+                      className="text-gray-400 hover:text-secondary-emerald transition-colors"
+                    >
+                      {link.label}
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>
@@ -80,12 +91,12 @@ export default function Footer() {
             <ul className="space-y-2">
               {services.map((service, index) => (
                 <li key={index}>
-                  <a
-                    href="#services"
+                  <Link
+                    href="/services"
                     className="text-gray-400 hover:text-secondary-emerald transition-colors"
                   >
                     {service}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -98,26 +109,26 @@ export default function Footer() {
               <li className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-secondary-emerald" />
                 <a
-                  href="tel:+971501234567"
+                  href="tel:+971582103486"
                   className="text-gray-400 hover:text-secondary-emerald transition-colors"
                 >
-                  +971 50 123 4567
+                  +971582103486
                 </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-secondary-emerald" />
                 <a
-                  href="mailto:info@uaejunkpros.com"
+                  href="mailto:Junkremoval1.uae@gmail.com"
                   className="text-gray-400 hover:text-secondary-emerald transition-colors"
                 >
-                  info@uaejunkpros.com
+                  Junkremoval1.uae@gmail.com
                 </a>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-secondary-emerald mt-1" />
                 <span className="text-gray-400">
-                  Serving all 7 Emirates<br />
-                  Dubai • Abu Dhabi • Sharjah
+                  Serving Dubai Only<br />
+                  All Areas of Dubai
                 </span>
               </li>
             </ul>
@@ -131,7 +142,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center space-x-2">
               <span className="text-2xl">🇦🇪</span>
-              <span className="text-gray-400 text-sm">Proudly Serving UAE Since 2020</span>
+              <span className="text-gray-400 text-sm">Proudly Serving Dubai Since 2020</span>
             </div>
           </div>
         </div>
@@ -139,4 +150,5 @@ export default function Footer() {
     </footer>
   );
 }
+
 

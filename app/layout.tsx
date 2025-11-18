@@ -5,9 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "UAE Junk Pros - Premium Junk Removal & Waste Disposal Services",
-  description: "Same-day, eco-friendly junk removal services across Dubai, Abu Dhabi, Sharjah, and all UAE. Professional furniture removal, appliance disposal, office junk removal, and more.",
-  keywords: "junk removal dubai, furniture removal abu dhabi, waste disposal UAE, same-day junk removal, eco-friendly disposal, office junk removal, appliance removal, construction debris removal, garden waste removal",
+  title: "UAE Junk Pros - Premium Junk Removal & Waste Disposal Services in Dubai",
+  description: "Same-day, eco-friendly junk removal services in Dubai. Professional furniture removal, appliance disposal, office junk removal, and more.",
+  keywords: "junk removal dubai, furniture removal dubai, waste disposal dubai, same-day junk removal, eco-friendly disposal, office junk removal, appliance removal, construction debris removal, garden waste removal",
   authors: [{ name: "UAE Junk Pros" }],
   creator: "UAE Junk Pros",
   publisher: "UAE Junk Pros",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "UAE Junk Pros - Premium Junk Removal Services",
-    description: "Professional, same-day junk removal across the UAE",
+    description: "Professional, same-day junk removal in Dubai",
     type: "website",
     locale: "en_US",
     siteName: "UAE Junk Pros",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "UAE Junk Pros - Premium Junk Removal Services",
-    description: "Professional, same-day junk removal across the UAE",
+    description: "Professional, same-day junk removal in Dubai",
   },
   robots: {
     index: true,

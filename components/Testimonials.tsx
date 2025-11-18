@@ -13,14 +13,14 @@ const testimonials = [
   },
   {
     name: "Sarah Johnson",
-    location: "Abu Dhabi",
+    location: "Business Bay, Dubai",
     rating: 5,
-    text: "Best junk removal company in UAE. Same-day service, transparent pricing, and they even donated some items. Will definitely use again!",
+    text: "Best junk removal company in Dubai. Same-day service, transparent pricing, and they even donated some items. Will definitely use again!",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face",
   },
   {
     name: "Mohammed Hassan",
-    location: "Sharjah",
+    location: "Al Barsha, Dubai",
     rating: 5,
     text: "Removed all construction debris from our renovation project. Quick, efficient, and reasonably priced. Great team!",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face",
@@ -34,7 +34,7 @@ const testimonials = [
   },
   {
     name: "David Chen",
-    location: "RAK",
+    location: "Downtown Dubai",
     rating: 5,
     text: "Fast response, professional team, and eco-friendly disposal. Exactly what we needed for our garden waste removal. 5 stars!",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
@@ -63,7 +63,7 @@ export default function Testimonials() {
             What Our Clients Say
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Trusted by thousands of satisfied customers across the UAE
+            Trusted by thousands of satisfied customers in Dubai
           </p>
         </motion.div>
 
@@ -112,4 +112,5 @@ export default function Testimonials() {
     </section>
   );
 }
+
 

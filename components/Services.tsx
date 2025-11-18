@@ -100,7 +100,7 @@ export default function Services() {
             Our Premium Services
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Comprehensive junk removal solutions for homes, offices, and businesses across the UAE
+            Comprehensive junk removal solutions for homes, offices, and businesses in Dubai
           </p>
         </motion.div>
 
@@ -134,7 +134,7 @@ export default function Services() {
                 </p>
                 
                 <motion.a
-                  href="#contact"
+                  href="/contact"
                   className="inline-flex items-center text-secondary-emerald font-semibold group-hover:text-secondary-teal transition-colors"
                   whileHover={{ x: 5 }}
                 >
@@ -149,4 +149,5 @@ export default function Services() {
     </section>
   );
 }
+
 

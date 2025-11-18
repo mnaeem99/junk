@@ -73,7 +73,7 @@ export default function Hero() {
             <span className="gradient-text bg-gradient-to-r from-secondary-emerald to-accent-gold bg-clip-text text-transparent">
               Waste Disposal
             </span>{" "}
-            Across the UAE
+            in Dubai
           </motion.h1>
 
           <motion.p
@@ -88,7 +88,7 @@ export default function Hero() {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
           >
             <motion.a
-              href="#contact"
+              href="/contact"
               className="group relative px-8 py-4 bg-gradient-to-r from-secondary-emerald to-secondary-teal text-white rounded-xl font-bold text-lg shadow-2xl overflow-hidden"
               whileHover={{ scale: 1.05, boxShadow: "0 0 40px rgba(0, 212, 170, 0.5)" }}
               whileTap={{ scale: 0.95 }}
@@ -101,13 +101,13 @@ export default function Hero() {
             </motion.a>
 
             <motion.a
-              href="tel:+971501234567"
+              href="tel:+971582103486"
               className="group px-8 py-4 bg-white text-primary-navy rounded-xl font-bold text-lg shadow-2xl flex items-center space-x-2"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               <Phone className="w-5 h-5" />
-              <span>Call Now: +971 50 123 4567</span>
+              <span>Call Now: +971582103486</span>
             </motion.a>
           </motion.div>
 
