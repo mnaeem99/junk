@@ -5,12 +5,12 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Junk Pros - Premium Junk Removal & Waste Disposal Services in Dubai",
+  title: "Ahlam Junk Removal - Premium Junk Removal & Waste Disposal Services in Dubai",
   description: "Same-day, eco-friendly junk removal services in Dubai. Professional furniture removal, appliance disposal, office junk removal, and more.",
   keywords: "junk removal dubai, furniture removal dubai, waste disposal dubai, same-day junk removal, eco-friendly disposal, office junk removal, appliance removal, construction debris removal, garden waste removal",
-  authors: [{ name: "Junk Pros" }],
-  creator: "Junk Pros",
-  publisher: "Junk Pros",
+  authors: [{ name: "Ahlam Junk Removal" }],
+  creator: "Ahlam Junk Removal",
+  publisher: "Ahlam Junk Removal",
   formatDetection: {
     email: false,
     address: false,
@@ -21,16 +21,25 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Junk Pros - Premium Junk Removal Services",
+    title: "Ahlam Junk Removal - Premium Junk Removal Services",
     description: "Professional, same-day junk removal in Dubai",
     type: "website",
     locale: "en_US",
-    siteName: "Junk Pros",
+    siteName: "Ahlam Junk Removal",
+    images: [
+      {
+        url: "/images/ahlam_junk_logo.svg",
+        width: 800,
+        height: 400,
+        alt: "Ahlam Junk Removal Logo",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Junk Pros - Premium Junk Removal Services",
+    title: "Ahlam Junk Removal - Premium Junk Removal Services",
     description: "Professional, same-day junk removal in Dubai",
+    images: ["/images/ahlam_junk_logo.svg"],
   },
   robots: {
     index: true,

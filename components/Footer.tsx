@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const quickLinks = [
   { label: "Home", href: "/" },
@@ -36,11 +37,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-secondary-emerald to-secondary-teal rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">UJP</span>
+            <div className="flex items-center mb-4">
+              <div className="relative w-48 h-24 md:w-56 md:h-28">
+                <Image
+                  src="/images/ahlam_junk_logo.svg"
+                  alt="Ahlam Junk Removal Logo"
+                  fill
+                  className="object-contain object-left"
+                />
               </div>
-              <span className="text-xl font-bold">Junk Pros</span>
             </div>
             <p className="text-gray-400 mb-4">
               Premium junk removal and waste disposal services in Dubai.
@@ -138,7 +143,7 @@ export default function Footer() {
         <div className="border-t border-white/10 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Junk Pros. All rights reserved. | Licensed by Dubai Municipality
+              © {new Date().getFullYear()} Ahlam Junk Removal. All rights reserved. | Licensed by Dubai Municipality
             </p>
             <div className="flex items-center space-x-2">
               <span className="text-2xl">🇦🇪</span>

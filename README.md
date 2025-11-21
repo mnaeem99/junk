@@ -1,6 +1,6 @@
-# Junk Pros - Premium Junk Removal Website
+# Ahlam Junk Removal - Premium Junk Removal Website
 
-A modern, fully responsive website for Junk Pros - a premium junk removal and waste disposal service company operating across all 7 emirates of the UAE.
+A modern, fully responsive website for Ahlam Junk Removal - a premium junk removal and waste disposal service company operating across all 7 emirates of the UAE.
 
 ## Features
 
@@ -121,10 +121,12 @@ The site includes:
 
 ## License
 
-This project is created for Junk Pros. All rights reserved.
+This project is created for Ahlam Junk Removal. All rights reserved.
 
 ## Support
 
 For questions or support, contact: info@junk.vercel.app
+
+
 
 

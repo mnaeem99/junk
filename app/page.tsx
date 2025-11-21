@@ -8,7 +8,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import HowItWorks from "@/components/HowItWorks";
 import BeforeAfter from "@/components/BeforeAfter";
 import Testimonials from "@/components/Testimonials";
-import Pricing from "@/components/Pricing";
+// import Pricing from "@/components/Pricing";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
@@ -33,12 +33,14 @@ export default function Home() {
       <HowItWorks />
       <BeforeAfter />
       <Testimonials />
-      <Pricing />
+      {/* <Pricing /> */}
       <ContactSection />
       <Footer />
       <FloatingButtons />
     </main>
   );
 }
+
+
 
 

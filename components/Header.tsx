@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone, MessageCircle } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -37,20 +38,23 @@ export default function Header() {
       }`}
     >
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-28 md:h-24">
           {/* Logo */}
           <Link href="/">
             <motion.div
-              className="flex items-center space-x-2 cursor-pointer"
+              className="flex items-center cursor-pointer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <div className="w-10 h-10 bg-gradient-to-br from-secondary-emerald to-secondary-teal rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">UJP</span>
+              <div className="relative w-72 h-20 md:w-96 md:h-24">
+                <Image
+                  src="/images/ahlam_junk_logo.svg"
+                  alt="Ahlam Junk Removal Logo"
+                  fill
+                  className="object-contain object-left"
+                  priority
+                />
               </div>
-              <span className="text-xl font-bold text-primary-navy">
-                Junk Pros
-              </span>
             </motion.div>
           </Link>
 
