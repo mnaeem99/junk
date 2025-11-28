@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://junk.vercel.app"),
+  metadataBase: new URL("https://ahlamjunkremovaluae.com"),
   alternates: {
     canonical: "/",
   },

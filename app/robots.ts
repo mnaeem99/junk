@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://junk.vercel.app/sitemap.xml',
+    sitemap: 'https://ahlamjunkremovaluae.com/sitemap.xml',
   }
 }
 

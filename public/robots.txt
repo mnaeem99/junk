@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://junk.vercel.app/sitemap.xml
+Sitemap: https://ahlamjunkremovaluae.com/sitemap.xml
 
 
 
