@@ -90,11 +90,6 @@ export const metadata: Metadata = {
       "ar-AE": "https://ahlamjunkremovaluae.com/ar",
     },
   },
-  verification: {
-    google: "your-google-verification-code", // Replace with actual verification code
-    // yandex: "your-yandex-verification-code",
-    // bing: "your-bing-verification-code",
-  },
   openGraph: {
     title: "Ahlam Junk Removal - Premium Junk Removal Services in Dubai, UAE",
     description: "Professional same-day junk removal services in Dubai and across UAE. Eco-friendly furniture removal, appliance disposal, office junk removal, and more. Free quotes available.",
